@@ -148,7 +148,7 @@ export default function Index() {
                 </div>
                 <div className="py-10">
                     <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-violet-500 font-extrabold pb-2 px-1 md:px-0 text-5xl text-center" data-aos="fade-up">I&apos;m a high school student with a passion for building things.</h1>
-                    <div className="md:grid grid-cols-2 gap-2 mb-10 p-3 md:p-10">
+                    <div className="content-center md:grid grid-cols-2 gap-2 justify-center mb-10 p-3 md:p-10">
                         <div className="prose prose-md prose-invert" data-aos="fade-right">
                             <p>I discovered programming at the age of ten when I discovered a book by accident at my local library called <i>Python for Kids</i>. Since then, I’ve learned about web development entirely by myself through the Internet, taking the well-known <a className="underline" href="https://cs50.harvard.edu/">CS50</a> course to learn Flask and researching and learning how to use various web frameworks and databases.</p>
                             <p>While web development is my main focus, I&apos;m excited by all aspects computer, whether that be hardware or software. At school, I&apos;m in a program where we study IT and regularly build computers and cables as well as set up routers and switches to learn more about the inner workings of computer hardware.</p>
@@ -201,7 +201,7 @@ export default function Index() {
                         </div>
                     </div>
                     <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-violet-500 font-extrabold pb-2 px-1 md:px-0 text-5xl text-center" data-aos="fade-down">Interested in contacting me?</h1>
-                    <div className="md:grid grid-cols-2 gap-5 p-3 md:p-10 space-y-4">
+                    <div className="content-center md:grid grid-cols-2 gap-5 justify-center p-3 md:p-10 space-y-4">
                         <form action="https://formspree.io/f/xyybngwn" className="flex flex-col gap-3" data-aos="fade-up" method="post">
                             <input autoComplete="off" className="bg-gray-700 border-none block mt-1 px-5 py-3 rounded-md w-full focus:border-none focus:ring-0" name="name" placeholder="Name..." required type="text"/>
                             <input autoComplete="off" className="bg-gray-700 border-none block mt-1 px-5 py-3 rounded-md w-full focus:border-none focus:ring-0" name="email" placeholder="Email..." required type="email"/>
