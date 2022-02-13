@@ -1,16 +1,21 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+    font-family: "Inter";
+    src: url("../public/fonts/Inter-Variable.ttf") format("truetype");
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@font-face {
+    font-family: "Syne";
+    src: url("../public/fonts/Syne-Variable.ttf") format("truetype");
 }
 
-* {
-  box-sizing: border-box;
+body, html {
+    @apply m-0 p-0 h-full;
+}
+
+.cards h2 {
+    @apply my-0;
 }
