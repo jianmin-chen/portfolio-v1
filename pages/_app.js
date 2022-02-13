@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import "../styles/globals.css";
 import stars from "../public/assets/stars.svg";
 
-export default function App({ Component, pageProps }) => {
+export default function App({ Component, pageProps }) {
     useEffect(() => {
         AOS.init();
     });
