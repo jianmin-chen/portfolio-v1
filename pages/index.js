@@ -143,16 +143,16 @@ export default () => {
             `}</style>
             <div className="bg-slate-800 shadow-2xl">
                 <div className="border-b-8 border-double p-2 md:p-10 relative rounded-b-full h-screen">
-                    <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 font-sans md:font-display font-extrabold lowercase relative text-8xl lg:text-9xl z-10" data-aos="fade-up" data-aos-delay="200">Hi, I'm Jianmin Chen</h1>
+                    <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 font-sans md:font-display font-extrabold lowercase relative text-8xl lg:text-9xl z-10" data-aos="fade-up" data-aos-delay="200">Hi, I&apos;m Jianmin Chen</h1>
                     <Image data-aos="fade-up-left" data-aos-delay="200" layout="fill" objectFit="cover" src={space}/>
                 </div>
                 <div className="py-10">
-                    <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-violet-500 font-extrabold pb-2 px-1 md:px-0 text-5xl text-center" data-aos="fade-up">I'm a high school student with a passion for building things.</h1>
+                    <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-violet-500 font-extrabold pb-2 px-1 md:px-0 text-5xl text-center" data-aos="fade-up">I&apos;m a high school student with a passion for building things.</h1>
                     <div className="md:grid grid-cols-2 gap-2 mb-10 p-3 md:p-10">
                         <div className="prose prose-md prose-invert" data-aos="fade-right">
                             <p>I discovered programming at the age of ten when I discovered a book by accident at my local library called <i>Python for Kids</i>. Since then, I’ve learned about web development entirely by myself through the Internet, taking the well-known <a className="underline" href="https://cs50.harvard.edu/">CS50</a> course to learn Flask and researching and learning how to use various web frameworks and databases.</p>
-                            <p>While web development is my main focus, I'm excited by all aspects computer, whether that be hardware or software. At school, I'm in a program where we study IT and regularly build computers and cables as well as set up routers and switches to learn more about the inner workings of computer hardware.</p>
-                            <p>Currently, I'm learning more about Blockchains and hackathons. <i>Hint: Hover on the circles if you're on desktop!</i></p>
+                            <p>While web development is my main focus, I&apos;m excited by all aspects computer, whether that be hardware or software. At school, I'm in a program where we study IT and regularly build computers and cables as well as set up routers and switches to learn more about the inner workings of computer hardware.</p>
+                            <p>Currently, I&apos;m learning more about Blockchains and hackathons. <i>Hint: Hover on the circles if you&apos;re on desktop!</i></p>
                         </div>
                         <div className="relative w-full h-full" data-aos="fade-left" id="circle-container">
                             <div className="md:absolute inset-64 xl:top-48" id="circles"></div>
@@ -160,29 +160,29 @@ export default () => {
                     </div>
                     <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-violet-500 font-extrabold pb-2 px-1 md:px-0 text-5xl text-center" data-aos="zoom-in">These are (just) some of my projects.</h1>
                     <div className="mb-10 prose prose-invert px-2 md:px-10 max-w-none" data-aos="zoom-in">
-                        <p className="lead text-center">Take a look at them and let me know your thoughts! (Plus, I've got a few top-secret projects I'm currently working on that are nearly done, and smaller projects that can be found on the social media links below.)</p>
+                        <p className="lead text-center">Take a look at them and let me know your thoughts! (Plus, I&apos;ve got a few top-secret projects I&apos;m currently working on that are nearly done, and smaller projects that can be found on the social media links below.)</p>
                         <div className="cards md:grid grid-cols-3 gap-4 md:py-10">
                             <div className="mb-4 md:mb-0 space-y-4">
                                 <div className="bg-gray-700 rounded-md p-8">
                                     <h2>OfficeHours</h2>
-                                    <p>It's as simple as it sounds: office hours for inboxes. Users can choose a time, and people will only be able to message them during this time.</p>
+                                    <p>It&apos;s as simple as it sounds: office hours for inboxes. Users can choose a time, and people will only be able to message them during this time.</p>
                                     <a href="https://officehrs.herokuapp.com/">View web app &rarr;</a>
                                 </div>
                                 <div className="bg-gray-700 rounded-md p-8">
                                     <h2>Inkling</h2>
-                                    <p>A chatroom application where you can create chatrooms and message people! I created this in order to learn Flask, and while it's not the most efficient (it doesn't use sockets), it worked and is definitely something I'm proud of.</p>
+                                    <p>A chatroom application where you can create chatrooms and message people! I created this in order to learn Flask, and while it&apos;s not the most efficient (it doesn&apos;t use sockets), it worked and is definitely something I&apos;m proud of.</p>
                                     <a href="https://inkling-chat.herokuapp.com/">View web app &rarr;</a>
                                 </div>
                             </div>
                             <div className="mb-4 md:mb-0 space-y-4">
                                 <div className="bg-gray-700 rounded-md p-8">
                                     <h2>VolunteerPedia</h2>
-                                    <p>A proof-of-concept I'm hoping to build upon. Basically, the concept behind it is this: gamify the volunteering experience to make it fun for those who don't typically volunteer!</p>
+                                    <p>A proof-of-concept I&apos;m hoping to build upon. Basically, the concept behind it is this: gamify the volunteering experience to make it fun for those who don&apos;t typically volunteer!</p>
                                     <a href="https://volunteerpedia.herokuapp.com/">View web app &rarr;</a>
                                 </div>
                                 <div className="bg-gray-700 rounded-md p-8">
                                     <h2>Eloquent</h2>
-                                    <p>Eloquent is a Typora theme designed for writing technical books. It's minimal and easy to use, and actually based on a book I read on JavaScript called <i>Eloquent JavaScript</i>. (Typora is a desktop Markdown editor that I commonly use.)</p>
+                                    <p>Eloquent is a Typora theme designed for writing technical books. It&apos;s minimal and easy to use, and actually based on a book I read on JavaScript called <i>Eloquent JavaScript</i>. (Typora is a desktop Markdown editor that I commonly use.)</p>
                                     <a href="https://theme.typora.io/theme/Eloquent/">View theme page &rarr;</a>
                                 </div>
                             </div>
@@ -194,7 +194,7 @@ export default () => {
                                 </div>
                                 <div className="bg-gray-700 rounded-md p-8">
                                     <h2>TechDoc</h2>
-                                    <p>TechDoc is a Jekyll theme designed for writing technical documentation! It's quick and easy to set up, and has over 10,000 downloads. (Jekyll is a blogging tool written in Ruby.)</p>
+                                    <p>TechDoc is a Jekyll theme designed for writing technical documentation! It&apos;s quick and easy to set up, and has over 10,000 downloads. (Jekyll is a blogging tool written in Ruby.)</p>
                                     <a href="https://rubygems.org/gems/TechDoc-jekyll-theme">View library on RubyGems.org &rarr;</a>
                                 </div>
                             </div>
@@ -209,7 +209,7 @@ export default () => {
                             <button className="bg-gray-600 font-semibold py-2 px-3 rounded-md text-white focus:outline-none">Shoot me a message!</button>
                         </form>
                         <div className="prose prose-md prose-invert" data-aos="fade-left">
-                            <p>Let me know your name, email, and question and I'll get back to you right away! I can also be found through the following social media:</p>
+                            <p>Let me know your name, email, and question and I&apos;ll get back to you right away! I can also be found through the following social media:</p>
                             <div className="flex flex-wrap gap-3">
                                 <a className="bg-slate-700 font-semibold py-2 px-3 no-underline rounded-md text-white focus:outline-none" href="https://codepen.io/JianminChen">
                                     <FontAwesomeIcon className="mr-1" icon={faCodepen}/>
