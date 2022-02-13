@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useEffect } from "react";
 import space from "../public/assets/space.svg";
 
-export default () => {
+export default function Index() {
     useEffect(() => {
         let container = document.getElementById("circles");
         let circles = [];
