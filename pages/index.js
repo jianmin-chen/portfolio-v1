@@ -155,7 +155,7 @@ export default function Index() {
                             <p>Currently, I&apos;m learning more about Blockchains and hackathons. <i>Hint: Hover on the circles if you&apos;re on desktop!</i></p>
                         </div>
                         <div className="relative w-full h-full" data-aos="fade-left" id="circle-container">
-                            <div className="md:absolute inset-60" id="circles"></div>
+                            <div className="md:absolute inset-60 2xl:top-52" id="circles"></div>
                         </div>
                     </div>
                     <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-violet-500 font-extrabold pb-2 px-1 md:px-0 text-5xl text-center" data-aos="zoom-in">These are (just) some of my projects.</h1>
