@@ -154,7 +154,7 @@ export default function Index() {
                             <p>While web development is my main focus, I&apos;m excited by all aspects computer, whether that be hardware or software. At school, I&apos;m in a program where we study IT and regularly build computers and cables as well as set up routers and switches to learn more about the inner workings of computer hardware.</p>
                             <p>Currently, I&apos;m learning more about Blockchains and hackathons. <i>Hint: Hover on the circles if you&apos;re on desktop!</i></p>
                         </div>
-                        <div className="border relative w-full h-full" data-aos="fade-left" id="circle-container">
+                        <div className="relative w-full h-full" data-aos="fade-left" id="circle-container">
                             <div className="md:absolute inset-60 2xl:top-52" id="circles"></div>
                         </div>
                     </div>
