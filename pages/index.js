@@ -126,19 +126,21 @@ export default function Index() {
                     transition: all .2s ease-out;
                 }
 
-                .circle:hover {
-                    opacity: 1;
-                }
+                @media screen and (min-width: 767.91px) {
+                    .circle:hover {
+                        opacity: 1;
+                    }
 
-                .circle:hover::before {
-                    background-color: #374151;
-                    border-radius: 0.375rem;
-                    content: attr(data-before);
-                    padding: 10px;
-                    position: absolute;
-                    top: 0; left: -305px;
-                    width: 300px;
-                    z-index: 2;
+                    .circle:hover::before {
+                        background-color: #374151;
+                        border-radius: 0.375rem;
+                        content: attr(data-before);
+                        padding: 10px;
+                        position: absolute;
+                        top: 0; left: -305px;
+                        width: 300px;
+                        z-index: 2;
+                    }
                 }
             `}</style>
             <div className="bg-slate-800 shadow-2xl">
