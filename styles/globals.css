@@ -8,7 +8,31 @@
 }
 
 @font-face {
+    font-family: "Inter";
+    font-weight: 600;
+    src: url("../public/fonts/Inter-Variable.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 700;
+    src: url("../public/fonts/Inter-Variable.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 800;
+    src: url("../public/fonts/Inter-Variable.ttf") format("truetype");
+}
+
+@font-face {
     font-family: "Syne";
+    src: url("../public/fonts/Syne-Variable.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Syne";
+    font-weight: 800;
     src: url("../public/fonts/Syne-Variable.ttf") format("truetype");
 }
 
